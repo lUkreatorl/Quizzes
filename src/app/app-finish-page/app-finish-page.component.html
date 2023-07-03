@@ -1,0 +1,8 @@
+<div>
+    <h1>Quiz is finished!</h1>
+    <p>Your correct answers: {{ score }}</p>
+    <p>Time spent: {{ timeSpent }}</p>
+    <p>Question count: {{ count }}</p>
+    <p>Difficulty: {{ difficulty | number: '1.0-2' }}</p>
+</div>
+<button type="button" class="btn btn-success" (click)="goHome()">Go to home page</button>
